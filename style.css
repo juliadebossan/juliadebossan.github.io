@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    font-family: "Playwrite CU", cursive;
+    background-color: hsl(32, 59%, 86%);
+    padding: 20px;
+  }
+  
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagem {
+    width: 18%;
+    border-radius: 50%;
+  }
+  
+  .texto-cabecalho {
+    margin-left: 20px;
+  }
+  
+  .h1 {
+    margin: 0;
+  }
+  
+  .p {
+    margin: 0;
+    font-style: italic;
+  }
+
+  .menu {
+    background-color: #795233;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin: 0;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+  }
+  
+  .intro {
+    padding: 20px;
+    text-align: center;
+  }
+  .contato-intro {
+    padding: 20px;
+  }
+  .contato-form {
+    padding: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+    input[type="text"], 
+    input[type="email"], 
+    select, 
+    textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+  
+  #button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #462a11;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .info {
+    padding: 20px;
+  }
+  
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .info-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .outros-contatos {
+    padding: 20px;
+  }
+  
+  .outros-contatos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .outros-contatos li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+  }

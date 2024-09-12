@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portifólio Jovem Programadora Senac</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="cabecalho">
+      <img src="imagem.png" class="imagem" alt="Foto" />
+      <div class="texto-cabecalho">
+        <h1>Júlia Debossan</h1>
+        <p>Assistente de Vendas</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="quemsou.html">Quem Sou</a></li>
+        <li><a href="contato.html" id="ativo">Contato</a></li>
+      </ul>
+    </nav>
+
+    <section class="contato-intro">
+      <h1><b>Entre em contato!</b></h1>
+      <p>Preencha todos os campos do formulário a seguir e em até 48h lhe responderei!</p>
+    </section>
+
+    <section class="contato-form">
+      <form>
+        <div class="form-group">
+          <label for="slcAssunto">Assunto</label>
+          <select name="Assunto" id="slcAssunto">
+            <option value="AS1">Assunto 1</option>
+            <option value="AS2">Assunto 2</option>
+            <option value="AS3">Assunto 3</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="txtNome">Nome</label>
+          <input type="text" name="Nome" id="txtNome" placeholder="Digite seu nome">
+        </div>
+
+        <div class="form-group">
+          <label for="txtemail">E-mail</label>
+          <input type="email" name="E-mail" id="txtemail" placeholder="seuemail@email.com">
+        </div>
+
+        <div class="form-group">
+          <label for="txttelefone">Telefone</label>
+          <input type="text" name="Telefone" id="txttelefone" placeholder="(27) 99999-9999">
+        </div>
+
+        <div class="form-group">
+          <label for="txtMensagem">Mensagem</label>
+          <textarea name="Mensagem" id="txtMensagem" cols="60" rows="7"></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="button">Enviar</button>
+        </div>
+      </form>
+      <hr>
+    </section>
+
+    <section class="outros-contatos">
+      <h3>Outras formas de contato:</h3>
+      <ul>
+        <li>Residente em Cariacica - ES</li>
+        <li><a href="https://outlook.live.com/mail/0/">julia.debossann@outlook.com</a></li>
+        <li>(27) 99999-9999</li>
+        <li><a href="https://www.linkedin.com/login/pt">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2024</p>
+  </footer>
+</body>
+
+</html>
